@@ -20,6 +20,7 @@ public class Converter {
             boolean passed = expected == out;
             System.out.println("140 rubles are 2.0 Test result : " + passed);
 
+
             int euro = Converter.rubleToEuro(140);
             System.out.println("140 rubles are " + euro + " euro.");
             double dollar = Converter.rubleToDollar(120);
