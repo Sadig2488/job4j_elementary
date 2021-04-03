@@ -9,6 +9,7 @@ public class ConverterTest {
 
     @Test
     public void whenConvert140RblThen2Euro() {
+
         int in = 140;
         int expected;
         expected = 2;
