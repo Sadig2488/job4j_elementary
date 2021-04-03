@@ -9,7 +9,6 @@ public class ConverterTest {
 
     @Test
     public void whenConvert140RblThen2Euro() {
-
         int in = 140;
         int expected = 2;
         int out = Converter.rubleToEuro(in);
