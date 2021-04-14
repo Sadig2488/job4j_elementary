@@ -10,7 +10,7 @@ public class FitTest {
 
         short height = 187;
         double expected = 100.05;
-        double rsl = (height - 100) * 1.15;
+        double rsl = Fit.manWeight(height);
         Assert.assertEquals(expected, rsl, 0.01);
 
 
@@ -21,7 +21,7 @@ public class FitTest {
 
         short height = 187;
         double expected = 88.55;
-        double rsl = (height - 110) * 1.15;
+        double rsl = Fit.womanWeight(height);
         Assert.assertEquals(expected, rsl, 0.01);
 
     }
